@@ -2,10 +2,10 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     text-shadow: 
-               -1px -1px 0px black, 
-               -1px 1px 0px black,      
-                1px -1px 0px black,    
-                1px 0px 0px black;;
+       -1px -1px 0px black 
+       -1px 1px 0px black     
+        1px -1px 0px black   
+        1px 0px 0px black;
 }
 
 header {
@@ -63,6 +63,10 @@ a {
     border-radius: 600px; 
     color: #2A2F4F;
 }
+
+/* area pra tentar criar flex box na div de textos*/
+/* area pra tentar criar flex box na div de textos*/
+/* area pra tentar criar flex box na div de textos*/
 
 iframe {
     align-items: center;
