@@ -1,6 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    color: #000000;
     text-shadow:#FFF -1px -1px 2px;
 }
 
@@ -8,12 +8,23 @@ header {
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color: white;
+    color: #FFF;
+    text-shadow:#000000 -1px -1px 2px;
     text-align: center;
-    background-color: #b84697;
-    height: 80px;
+    background-color: #B576E6;
+    height: 70px;
     border-radius: 500px;
 }
+
+/* paleta de cores usadas no projeto:
+    
+    #FFF;
+    #000000;
+    #6010E0;
+    #B576E6;
+    #290761;
+
+*/
 
 h2 {
     text-align: center;
@@ -43,27 +54,32 @@ p {
     text-align:justify;
 }
 
-.text-block {
-    display: inline-block;
+.div-daddy-text-block {
+    align-items: center;
+}
+
+.div-text-block {
+    display: inline-flex;
     align-items: center;
     text-justify: cover;
     position: center;
 }
 
 a {
-    color: 2A2F4F;
+    color: #000000;
 }
 
 .tamanhogif {
     width: 400px;
     height: 200px;                          /*futuramente criar interação com java script*/
     object-fit: cover;                      /*passar o mouse em cima e abrir um pop-up com o gif*/
-    border-radius: 20px; color: #2A2F4F;  /*ou até o próprio perfil online, puxado direto da steam*/
+    border-radius: 20px; color: #290761;  /*ou até o próprio perfil online, puxado direto da steam*/
+    
 }
 
 .redondoimg {
     border-radius: 600px; 
-    color: #2A2F4F;
+    color: #290761;
 }
 
 iframe {
@@ -74,6 +90,6 @@ iframe {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: black;
+    color: #000000;
     text-shadow: none;
 }
